@@ -1,0 +1,54 @@
+nav{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color:  #FF3A44;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+nav a{
+    display: block;
+    padding:25px 25px 25px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: #FF656D;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.chat .messages{
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 210px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.chat .message a{
+    color: slategray;
+    
+}
+
+.chat .message p{
+    margin: 5px 0;
+}
+
+.chat .entry{
+    width: 260px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
